@@ -20,3 +20,7 @@
    8. add useState and useEffect
    9. show posts in React
    
+## 3
+   1. create post show page in React
+   2. npm i react-router-dom, restart frontend
+   3. 

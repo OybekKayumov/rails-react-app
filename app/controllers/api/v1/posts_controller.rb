@@ -11,6 +11,8 @@ class Api::V1::PostsController < ApplicationController
 
   # GET /posts/1
   def show
+    # sleep for N seconds
+    sleep 2
     render json: @post
   end
 
