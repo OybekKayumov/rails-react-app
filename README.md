@@ -8,4 +8,15 @@
 
 ## 2
    1. add /api/v1 and Api::V1::PostsController
-   2. 
+   2. npm create vite@latest with name client, React, JS
+   3. cd client
+      npm install
+      npm run dev
+
+   4. npm install dotenv
+   5. create .env.development file
+   6. add client/src/features/posts/PostsList component
+   7. fetch posts from API
+   8. add useState and useEffect
+   9. show posts in React
+   
