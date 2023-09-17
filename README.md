@@ -23,4 +23,9 @@
 ## 3
    1. create post show page in React
    2. npm i react-router-dom, restart frontend
-   3. 
+   3. add React routes
+
+## 4
+   1. create a new post
+   2. 
+

@@ -12,7 +12,7 @@ class Api::V1::PostsController < ApplicationController
   # GET /posts/1
   def show
     # sleep for N seconds
-    sleep 2
+    # sleep 2
     render json: @post
   end
 
@@ -21,7 +21,9 @@ class Api::V1::PostsController < ApplicationController
     @post = Post.new(post_params)
 
     if @post.save
-      render json: @post, status: :created, location: @post
+      # we can't render @post because we are now in /api/v1/posts
+      # render json: @post, status: :created, location: @post
+      render json: @post, status: :created, location: api_v1_post_url(@post)
     else
       render json: @post.errors, status: :unprocessable_entity
     end
